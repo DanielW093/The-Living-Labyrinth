@@ -1,0 +1,68 @@
+﻿Build started 16/03/2014 21:31:11.
+     1>Project "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\GTEC2D.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\GTEC3D.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ISDL/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\Floor.cpp source\Font.cpp source\Game.cpp source\GameApp.cpp source\MD2model.cpp source\Model.cpp source\ModelList.cpp source\Sound.cpp source\Sprite.cpp source\SpriteList.cpp source\Texture.cpp source\Vector3f.cpp
+         Vector3f.cpp
+         Texture.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\texture.cpp(123): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         SpriteList.cpp
+         Sprite.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\sprite.cpp(205): warning C4101: 'zp' : unreferenced local variable
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\sprite.cpp(231): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\sprite.cpp(231): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\sprite.cpp(231): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Sound.cpp
+         ModelList.cpp
+         Model.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\model.cpp(121): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\model.cpp(136): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\model.cpp(143): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+         MD2model.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\md2model.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         GameApp.cpp
+         Game.cpp
+         Font.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\gtec3dlib\source\font.cpp(145): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Floor.cpp
+         Generating Code...
+       Lib:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\Debug\GTEC3D.lib" opengl32.lib glu32.lib SDL.lib SDLmain.lib SDL_mixer.lib /LIBPATH:SDL/lib /NOLOGO Debug\Floor.obj
+         Debug\Font.obj
+         Debug\Game.obj
+         Debug\GameApp.obj
+         Debug\MD2model.obj
+         Debug\Model.obj
+         Debug\ModelList.obj
+         Debug\Sound.obj
+         Debug\Sprite.obj
+         Debug\SpriteList.obj
+         Debug\Texture.obj
+         Debug\Vector3f.obj
+     1>glu32.lib(GLU32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+     1>glu32.lib(GLU32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL.lib(SDL.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+     1>SDL.lib(SDL.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SDL_mixer.lib(SDL_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in opengl32.lib(OPENGL32.dll); second definition ignored
+     1>SDL_mixer.lib(SDL_mixer.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         GTEC2D.vcxproj -> E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\Debug\GTEC3D.lib
+       PostBuildEvent:
+         copy "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\Debug\*.lib" "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\lib\"
+         :VCEnd
+         E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\Debug\GTEC3D.lib
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\GTEC3D.unsuccessfulbuild".
+         Touching "Debug\GTEC3D.lastbuildstate".
+     1>Done Building Project "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\GTEC3Dlib\GTEC2D.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.98

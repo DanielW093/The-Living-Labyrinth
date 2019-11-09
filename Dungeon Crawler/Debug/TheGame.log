@@ -1,0 +1,46 @@
+﻿Build started 18/03/2014 23:50:21.
+     1>Project "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\TheGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Dungeon Crawler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\..\GTEC3Dlib\include" /I"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\..\GTEC3Dlib\SDL\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MyGame.cpp
+         MyGame.cpp
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(14): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(65): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(65): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(65): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(276): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(305): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+     1>e:\users\dan\desktop\gtec3d\gtec3d\dungeon crawler\mygame.cpp(316): warning C4244: '=' : conversion from 'time_t' to 'int', possible loss of data
+       Link:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\Dungeon Crawler.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\..\GTEC3Dlib\lib" GTEC3D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Dungeon Crawler.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\Dungeon Crawler.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\Dungeon Crawler.lib" /MACHINE:X86 Debug\Chest.obj
+         Debug\Enemy.obj
+         Debug\Gui.obj
+         Debug\Minimap.obj
+         Debug\MyGame.obj
+         Debug\Player.obj
+         Debug\stdafx.obj
+         Debug\main.obj
+         Debug\Tile.obj
+         Debug\World.obj
+         Debug\WorldProvider.obj
+     1>Chest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         TheGame.vcxproj -> E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\Dungeon Crawler.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\Dungeon Crawler.exe;#1" /manifest "Debug\Dungeon Crawler.exe.intermediate.manifest"
+       PostBuildEvent:
+         Description: Copying DLLs
+         copy "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\..\GTEC3Dlib\SDL\dll\SDL.dll" "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\"
+         copy "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\..\GTEC3Dlib\SDL\dll\SDL_mixer.dll" "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Dungeon Crawler.unsuccessfulbuild".
+         Touching "Debug\Dungeon Crawler.lastbuildstate".
+     1>Done Building Project "E:\Users\Dan\Desktop\GTEC3D\GTEC3D\Dungeon Crawler\TheGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
